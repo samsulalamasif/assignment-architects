@@ -1,0 +1,170 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600&family=Work+Sans:wght@600&display=swap');
+
+
+/* commmon style */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.section-container {
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.header-titel {
+    font-size: 45px;
+    font-style: strong;
+}
+
+.header-manu {
+    width: 477px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* architects section */
+
+.architects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.architects-title h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.architects-description {
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.architects-button, .features-button {
+    color: white;
+    font-size: 20px;
+    width: 170px;
+    padding: 8px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.architects-banner {
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+/* 
+features style */
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.features-title{
+    font-size: 45px;
+    color: #727272;
+    font-style: normal;
+    
+}
+.features-description{
+    color: #727272;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+
+/* Section-Artical */
+
+.features-artical{
+    display: flex;
+    justify-content: space-around;
+}
+
+.artical-info{
+    display: flex;
+    align-items: center;
+}
+
+.artical-title{
+    font-size: 45px;
+    
+
+}
+.square {
+    height: 105px;
+    width: 5px;
+    margin-right: 25px;
+    background-color: #FF900E;
+}
+.artical-description{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 25px;
+
+}
+
+
+/* Dexktop & Mobile Version Article */
+.dexktop{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border: 2px solid #fefefe;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px 0px #0000000F;
+    margin-top: 40px;
+}
+.items-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.items-description{
+    font-size: 16px;
+    color: #727272;   
+}
+
+.experience-button{
+    color: white;
+    font-size: 50px;
+    width: 200px;
+    padding: 25px;
+    text-align: center;
+    background-color: #FF900E;
+    border-radius: 15px;
+    position: relative;
+    bottom: 130px;
+    left: 750px;
+}
+
