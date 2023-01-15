@@ -324,10 +324,10 @@ features style */
     }
 
     .experience-button{
-        position: absolute;
-        left: 25%;
-        right: 25%;
-        top: 675%;
+        position: relative;
+        left: 0px;
+        right: 0px;
+
     }
 
     .features-artical, .sponspors{
