@@ -73,7 +73,8 @@ body {
     margin-top: 30px;
 }
 
-.architects-banner {
+.architects-banner img{
+    width: 100%;
     justify-content: center;
     margin-top: 50px;
 
@@ -87,6 +88,7 @@ features style */
     justify-content: space-around;
     align-items: center;
     padding: 150px;
+    gap: 100px;
 }
 
 .team-image {
@@ -166,14 +168,18 @@ features style */
 .experience-button {
     color: white;
     font-size: 50px;
-    width: 200px;
     padding: 25px;
     text-align: center;
     background-color: #FF900E;
     border-radius: 15px;
-    position: relative;
-    bottom: 130px;
-    left: 750px;
+    position: absolute;
+    left: 45%;
+    top: 420%;
+
+}
+
+.artical-image img{
+    width: 100%;
 }
 
 /* Some-Facts */
@@ -304,27 +310,33 @@ features style */
 /* Mobile Media Querie */
 
 @media only screen and (max-width:576px) {
-    .header,
-    .header-manu {
+    .header, .header-manu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 15px;
     }
-
     .features-container{
         flex-direction: column-reverse;   
     }
     .team-image{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .experience-button{
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 675%;
+    }
+
     .features-artical, .sponspors{
         flex-direction: column;
     }
-    .sponspors-logo, .contact, .box-items, .contact-icon{
+    .sponspors-logo, .contact, .box-items{
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
     }
 }
 
