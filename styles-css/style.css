@@ -13,6 +13,7 @@ body {
 }
 
 .section-container {
+    width: 100%;
     background: rgba(255, 144, 14, 0.1);
 
 }
@@ -296,3 +297,35 @@ features style */
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Responsive Media Queries */
+
+/* Mobile Media Querie */
+
+@media only screen and (max-width:576px) {
+    .header,
+    .header-manu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .features-container{
+        flex-direction: column-reverse;   
+    }
+    .team-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-artical, .sponspors{
+        flex-direction: column;
+    }
+    .sponspors-logo, .contact, .box-items, .contact-icon{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
